@@ -2,6 +2,8 @@
 
 Push-to-talk voice input for **DeepSeek Harness (DSH)**: hold **Right Ctrl**, speak, and the transcript appears in the composer **while you talk** — then the final result replaces the interim text when you release the key.
 
+[![npm version](https://img.shields.io/npm/v/dsh-voice-ptt.svg)](https://www.npmjs.com/package/dsh-voice-ptt)
+
 [中文说明](README.zh.md)
 
 - 🎤 **Hold Right Ctrl to dictate.** Release to finalize. A 🎤 button in the composer toggles recording by click as well.
@@ -25,20 +27,24 @@ If the Voice Input bundle is missing/disabled, the plugin's host half stays pend
 ## Install
 
 ```bash
-# desktop app / desktop profile
-dsh plugin --profile desktop add github:zmq6931/dsh-voice-ptt
+# from npm (recommended)
+dsh plugin --profile desktop add dsh-voice-ptt
 
 # web profile
-dsh plugin --profile web add github:zmq6931/dsh-voice-ptt
+dsh plugin --profile web add dsh-voice-ptt
 ```
 
-The DSH **Plugins** panel also accepts the same spec (`github:zmq6931/dsh-voice-ptt`). Restart DSH (or refresh the GUI page) after installing; the 🎤 button and the hotkey appear once the plugin is loaded.
-
-Manual install from a checkout:
+Alternative sources:
 
 ```bash
+# straight from GitHub
+dsh plugin --profile desktop add github:zmq6931/dsh-voice-ptt
+
+# manual, from a local checkout
 dsh plugin --profile desktop add link:/absolute/path/to/dsh-voice-ptt
 ```
+
+The DSH **Plugins** panel accepts the same specs. Restart DSH (or refresh the GUI page) after installing; the 🎤 button and the hotkey appear once the plugin is loaded.
 
 ## Usage
 

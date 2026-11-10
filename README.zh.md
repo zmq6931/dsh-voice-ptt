@@ -2,6 +2,8 @@
 
 DSH（DeepSeek Harness）的**按住说话**语音输入插件：**按住右 Ctrl** 说话，文字**边说边出现在输入框里**，松开右 Ctrl 后显示最终识别结果。
 
+[![npm version](https://img.shields.io/npm/v/dsh-voice-ptt.svg)](https://www.npmjs.com/package/dsh-voice-ptt)
+
 [English](README.md)
 
 - 🎤 **按住右 Ctrl 说话**：松开结束；输入框右侧的 🎤 按钮也可以点击开始/停止
@@ -25,20 +27,24 @@ Windows 上**右 Alt** 常被其他桌面助手（例如 Kimi 客户端）抢占
 ## 安装
 
 ```bash
-# 桌面端（desktop profile）
-dsh plugin --profile desktop add github:zmq6931/dsh-voice-ptt
+# npm（推荐）
+dsh plugin --profile desktop add dsh-voice-ptt
 
-# Web（web profile）
-dsh plugin --profile web add github:zmq6931/dsh-voice-ptt
+# Web profile
+dsh plugin --profile web add dsh-voice-ptt
 ```
 
-DSH 的 **插件（Plugins）** 面板里填入同一个 spec（`github:zmq6931/dsh-voice-ptt`）也可以。安装后重启 DSH 或刷新界面，出现 🎤 按钮并绑上热键即生效。
-
-从本地目录安装（开发/自用）：
+其他方式：
 
 ```bash
+# 直接从 GitHub
+dsh plugin --profile desktop add github:zmq6931/dsh-voice-ptt
+
+# 本地目录（开发/自用）
 dsh plugin --profile desktop add link:/absolute/path/to/dsh-voice-ptt
 ```
+
+DSH 的 **插件（Plugins）** 面板里填入同样的 spec 也可以。安装后重启 DSH 或刷新界面，出现 🎤 按钮并绑上热键即生效。
 
 ## 使用
 

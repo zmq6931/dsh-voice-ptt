@@ -10,3 +10,4 @@ Initial public release.
 - Recognition language hint support: `auto` / `zh` / `yue` (Cantonese) / `en` / `ja` / `ko`.
 - Optional OpenAI-compatible cloud ASR with automatic local fallback and a redacted config endpoint.
 - Composer 🎤 button, status pill, per-origin overrides, and offline smoke tests (browser pipeline in a `vm` sandbox + host route tests, including cloud fallback).
+- Published to npm as [`dsh-voice-ptt`](https://www.npmjs.com/package/dsh-voice-ptt) (`dsh plugin add dsh-voice-ptt`).
