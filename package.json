@@ -1,0 +1,65 @@
+{
+  "name": "dsh-voice-ptt",
+  "version": "0.3.0",
+  "description": "Push-to-talk voice input for DeepSeek Harness: hold Right Ctrl, speak, and text appears in the composer while you talk — reuses the official Voice Input bundle's local SenseVoice model.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "voice",
+    "voice-input",
+    "push-to-talk",
+    "speech-to-text",
+    "asr",
+    "sensevoice",
+    "right-ctrl",
+    "语音输入",
+    "按住说话"
+  ],
+  "engines": {
+    "node": ">=18",
+    "dsh": ">=0.2.0-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmq6931/dsh-voice-ptt.git"
+  },
+  "homepage": "https://github.com/zmq6931/dsh-voice-ptt#readme",
+  "bugs": {
+    "url": "https://github.com/zmq6931/dsh-voice-ptt/issues"
+  },
+  "author": "zmq6931",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "manifestVersion": "1",
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-modules"
+      ]
+    }
+  }
+}

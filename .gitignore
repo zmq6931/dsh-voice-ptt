@@ -1,0 +1,9 @@
+node_modules/
+*.tgz
+*.wav
+*.log
+.DS_Store
+.env
+.idea/
+.vscode/
+coverage/
