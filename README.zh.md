@@ -4,6 +4,10 @@ DSH（DeepSeek Harness）的**按住说话**语音输入插件：**按住右 Ctr
 
 [![npm version](https://img.shields.io/npm/v/dsh-voice-ptt.svg)](https://www.npmjs.com/package/dsh-voice-ptt)
 
+> 📦 **已发布到 npm：**[`dsh-voice-ptt`](https://www.npmjs.com/package/dsh-voice-ptt) &nbsp;·&nbsp; **GitHub：**[zmq6931/dsh-voice-ptt](https://github.com/zmq6931/dsh-voice-ptt)
+>
+> 安装：`dsh plugin --profile desktop add dsh-voice-ptt`
+
 [English](README.md)
 
 - 🎤 **按住右 Ctrl 说话**：松开结束；输入框右侧的 🎤 按钮也可以点击开始/停止

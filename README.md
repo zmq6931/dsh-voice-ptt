@@ -4,6 +4,10 @@ Push-to-talk voice input for **DeepSeek Harness (DSH)**: hold **Right Ctrl**, sp
 
 [![npm version](https://img.shields.io/npm/v/dsh-voice-ptt.svg)](https://www.npmjs.com/package/dsh-voice-ptt)
 
+> 📦 **Published on npm:** [`dsh-voice-ptt`](https://www.npmjs.com/package/dsh-voice-ptt) &nbsp;·&nbsp; **GitHub:** [zmq6931/dsh-voice-ptt](https://github.com/zmq6931/dsh-voice-ptt)
+>
+> Install: `dsh plugin --profile desktop add dsh-voice-ptt`
+
 [中文说明](README.zh.md)
 
 - 🎤 **Hold Right Ctrl to dictate.** Release to finalize. A 🎤 button in the composer toggles recording by click as well.
