@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1 — 2026-11-10
+
+- Docs-only republish: npm-first install instructions (`dsh plugin add dsh-voice-ptt`), npm badge, and a note that the package is published on npm.
+
 ## 0.3.0 — 2026-11-10
 
 Initial public release.

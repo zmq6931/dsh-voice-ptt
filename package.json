@@ -1,6 +1,6 @@
 {
   "name": "dsh-voice-ptt",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Push-to-talk voice input for DeepSeek Harness: hold Right Ctrl, speak, and text appears in the composer while you talk — reuses the official Voice Input bundle's local SenseVoice model.",
   "license": "MIT",
   "type": "module",
